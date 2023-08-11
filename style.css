@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+  }
+  /*"""""""""""""""""""""""*/
+  /*"common styling start"*/
+  /*"""""""""""""""""""""""*/
+  .w-50 {
+    width: 50%; 
+    float: left;
+    box-sizing: border-box;
+  }
+  .contenar {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+  }
+  .links {
+      border-top: 1px solid #dadde1;
+      margin: 20px 0;
+  }
+  
+  /*"""""""""""""""""""""""*/
+  /*"""common styling end""*/
+  /*"""""""""""""""""""""""*/
+  
+  
+  /*"""""""""""""""""""""""*/
+  /*main-area styling start*/
+  /*"""""""""""""""""""""""*/  
+  .main-area {
+    background: #f0f2f5;
+    padding: 90px 0;
+    
+  }
+  .main-area .facebook-image {
+    width: 310px;
+    height: 100px;
+    margin-top: 60px;
+  }
+  .main-area .facebook-helps h2 {
+    margin: 0 0 0 35px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+  }
+  .main-area .login-form {
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+      width: 50%;
+      margin-left: 166px;
+  }
+  .main-area .login-form input {
+    width: 100%;
+    display: block;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c2c4c9;
+  }
+  .main-area .login-form input:hover {
+    border-color: #1877f2;
+  }
+  ::placeholder {
+    font-size: 16px;
+    color: #c2c4c9;
+  }
+  
+  input[type="submit"] {
+    background: #1877f2;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .main-area .login-form .Forgot, 
+  .Create-ac, 
+  .main-area .Create-Page a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #1877f2;
+  }
+  .main-area .login-form .Forgot:hover, 
+  .Create-ac:hover, 
+  .main-area .Create-Page a:hover {
+      text-decoration: underline;
+  } 
+  .main-area .Create-ac {
+    background: #42b72a;
+    padding: 15px 12px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .main-area .Create-Page {
+    text-align: center;
+    font-size: 15px;
+    margin: 35px;
+  }
+  .main-area .Create-Page a {
+    font-weight: bold;
+    color: #1c1e21;
+  }
+  
+  /*"""""""""""""""""""""""*/
+  /*"main-area styling end"*/
+  /*"""""""""""""""""""""""*/
+  
+  
+  /*"""""""""""""""""""""""*/
+  /*"footer  styling start"*/
+  /*"""""""""""""""""""""""*/
+  .footer-area {
+    padding: 36px;
+  }
+  .footer-area .languages ul , 
+  .footer-area .extra-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #737373;
+    overflow: hidden;
+  }
+  .footer-area .languages ul li, 
+  .footer-area .extra-links ul li {
+    float: left;
+    margin-right: 10px;
+      margin-bottom: 8px;
+  }
+  
+  .footer-area .languages ul li a, 
+  .footer-area .extra-links ul li a {
+    color: #737373;
+    text-decoration: none;
+  }
+  .footer-area .languages ul li a:hover, 
+  .footer-area .extra-links ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer-area .languages .plas-icon:hover {
+  text-decoration: none;
+  }
+  
+  .footer-area .languages .plas-icon {
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #c2c4c9;
+  padding: 0 4px;
+  }
+  .footer-area .copyright {
+    font-size: 15px;
+    color: #737373;
+    margin-top: 70px;
+  }
+  
+  
+  /*"""""""""""""""""""""""*/
+    /*"footer styling end"*/
+  /*"""""""""""""""""""""""*/
